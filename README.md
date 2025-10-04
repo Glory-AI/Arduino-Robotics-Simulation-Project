@@ -118,7 +118,7 @@ This is the code used for the simulation(using Liquid Crystal I2C)
 
 // 2. CONFIGURATION & CONSTANTS
 
-const int TOTAL_SLOTS = 5; // Define the total capacity of the parking lot, can be changed
+const int TOTAL_SLOTS = 5; // Define the total capacity of the parking lot, this can be changed
 
 // Define time and fee structure
 const int FIRST_HOUR_RATE_CENTS = 100; // $1.00 for the first hour (in cents)
@@ -158,7 +158,7 @@ const int EXIT_TRIG_PIN = 32;
 const int EXIT_ECHO_PIN = 33;  
 const int EXIT_SERVO_PIN = 9;  
 
-// Parking Slot Pins (Mega Digital Pins 34 to 53)- for leds nad ultrasonic sensors
+// Parking Slot Pins (Mega Digital Pins 34 to 53)- for leds and ultrasonic sensors
 int trigPins[TOTAL_SLOTS]  = {34, 38, 42, 46, 50}; 
 int echoPins[TOTAL_SLOTS]  = {35, 39, 43, 47, 51}; 
 int greenLEDs[TOTAL_SLOTS] = {36, 40, 44, 48, 52}; 
@@ -223,7 +223,7 @@ void setup() {
   
   lcd.print("GLORY'S Smart Parking System");
   lcd.setCursor(0, 1);
-  lcd.print("Total Slots: 5");
+  lcd.print(" Total Slots:      ");;
   
   // Servo Initialization
   entryServo.attach(ENTRY_SERVO_PIN);
