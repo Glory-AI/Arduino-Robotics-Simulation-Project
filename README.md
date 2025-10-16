@@ -1,9 +1,10 @@
-# GloRobo-Projects
+# ROBOTICS PROJECT BY GLORY
 
 
 
 ## 🅿️ Smart Parking Management System (Arduino Mega 2560)
 This project implements a fully automated, real-time smart parking solution designed to manage vehicle entry, track occupancy, and calculate parking fees upon exit. Built around the high-capacity Arduino Mega 2560, the system provides a robust solution for simulating modern, efficient parking facilities.
+Simulation can be viewed in the files section of this repository.
 
 ### Key Features:
 
