@@ -6,6 +6,8 @@
 This project implements a fully automated, real-time smart parking solution designed to manage vehicle entry, track occupancy, and calculate parking fees upon exit. Built around the high-capacity Arduino Mega 2560, the system provides a robust solution for simulating modern, efficient parking facilities.
 Simulation can be viewed in the files section of this repository.
 
+Link to project on Wokwi- [Glory's Project](https://wokwi.com/projects/443710469497527297).
+
 ### Key Features:
 
 * Real-Time Occupancy Tracking: Utilizes multiple ultrasonic sensors to monitor the status of 5 dedicated parking slots and update the available count instantly.
